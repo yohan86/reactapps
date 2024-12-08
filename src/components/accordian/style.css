@@ -1,0 +1,26 @@
+.button{
+    margin:10px;
+    background:#1675f2;
+    color:#fff;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+}
+.accordian-wrapper{
+    width:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item{
+    width:100%;
+    margin-bottom:2px;
+}
+.item .title{
+    color:#fff;
+    background:#bb3e3e;
+    padding:10px;
+    margin:0;
+    width:100%;
+}
