@@ -10,6 +10,7 @@ export default function NavBar() {
             <li> <Link to="/random-color">Random Color</Link></li>
             <li> <Link to="/star-rating">Star Rating</Link></li>
             <li> <Link to="/image-slider">image Slider</Link></li>
+            <li> <Link to="/load-more">Product Load More</Link></li>
         </ul>
     </nav>
   )

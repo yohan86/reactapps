@@ -1,0 +1,12 @@
+.product-wrapper{
+    width:900px;
+    position:relative;
+    display:block;
+}
+.item{
+    width:250px;
+    height:200px;
+    display:inline-block;
+    margin:10px;
+    border:1px solid #000;
+}
