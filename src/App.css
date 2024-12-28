@@ -1,10 +1,14 @@
+header{
+  width:100%;
+  background:#41bab8;
+  text-align: center;
+}
 h1{
   font-size: 20px;
   color: #fff;
   font-weight: 700;
   margin: 0;
   padding: 18px;
-  text-align: center;
 }
 .body-cont {
   display: flex;
@@ -35,6 +39,7 @@ h1{
   display: block;
   background-color: #41bab8;
 }
+.Navigation-wrapper ul li a.active,
 .Navigation-wrapper ul li a:hover{
   color:#fff;
   background-color:#609eef;

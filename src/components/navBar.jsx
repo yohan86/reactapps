@@ -1,17 +1,18 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export default function NavBar() {
   return (
     <div class="Navigation-wrapper">
         <ul>
-            <li><Link to='/'>Home</Link></li>
-            <li> <Link to="/accordian">Accordian</Link></li>
-            <li> <Link to="/random-color">Random Color</Link></li>
-            <li> <Link to="/star-rating">Star Rating</Link></li>
-            <li> <Link to="/image-slider">image Slider</Link></li>
-            <li> <Link to="/load-more">Product Load More</Link></li>
-            <li><Link to="/tree-menu">Tree Menu</Link></li>
+            <li><NavLink to='/'>Home</NavLink></li>
+            <li> <NavLink to="/accordian">Accordian</NavLink></li>
+            <li> <NavLink to="/random-color">Random Color</NavLink></li>
+            <li> <NavLink to="/star-rating">Star Rating</NavLink></li>
+            <li> <NavLink to="/image-slider">image Slider</NavLink></li>
+            <li> <NavLink to="/load-more">Product Load More</NavLink></li>
+            <li><NavLink to="/tree-menu">Tree Menu</NavLink></li>
+            <li><NavLink to="/qr-code-generator">QR Code Generator</NavLink></li>
         </ul>
     </div>
   )

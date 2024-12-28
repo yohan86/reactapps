@@ -9,18 +9,18 @@ export default function MenuItem({ item, index }) {
             item && item.children && item.children.length > 0 ?
                 (
                     <div className='sub-menu-wrapper'>
-                        <div className='menu-item' onClick={() => setToggleMenu(!toggleMenu)}>
+                        <a className={`menu-item ${toggleMenu && 'expanded'}`} onClick={() => setToggleMenu(!toggleMenu)}>
                             <span className='menu-label' >
                                 {item.label}
                             </span>
                             {
-                                toggleMenu === true ? (<span className='menu-minus'>-</span>) : (<span className='menu-plus'>+</span>)
+                                toggleMenu ? (<span className='menu-icon minus'>-</span>) : (<span className='menu-icon plus'>+</span>)
                             }
-                        </div>
+                        </a>
                         {toggleMenu && <MenuList list={item.children} />}
                     </div>
                 )
-                : (<div className='menu-item'>{item.label}</div>)
+                : (<a className='menu-item'>{item.label}</a>)
         }
     </li>
 }

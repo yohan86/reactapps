@@ -1,6 +1,8 @@
 import data from "./data";
 import MenuList from "./menu-list";
+import "./style.css";
 
 export default function TreeMenu(){
-    return <MenuList list={data}  />
+
+    return <div className="tree-menu-wrapper"><MenuList list={data}  /></div>
 }

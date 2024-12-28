@@ -7,6 +7,7 @@ import StarRatingPage from './pages/star-rating';
 import ImageSlider from './components/image-slider';
 import LoadMore from './components/load-more';
 import TreeMenu from './components/tree-menu';
+import QrCodeGenerator from './components/qr-code-generator';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="/image-slider" element={<ImageSlider url='https://picsum.photos/v2/list' page='2' limit='10' />} />
             <Route path="/load-more" element={<LoadMore />} />
             <Route path="/tree-menu" element={<TreeMenu />} />
+            <Route path="/qr-code-generator" element={<QrCodeGenerator />} />
           </Routes>
         </div>
       </div>
